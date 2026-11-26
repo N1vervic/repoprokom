@@ -1,6 +1,6 @@
 # Week 13 Pemrogaman Komputer
 
-### Exercise 1
+### Exercise 1 (Menghitung Rata Rata)
 
 ```bash
 #include <iostream>
@@ -47,7 +47,7 @@ int main(){
 ```
 
 ##
-### Exercise 2
+### Exercise 2 (Memasukkan 10 data)
 
 ```bash
 #include <iostream>
@@ -81,4 +81,10 @@ int main(){
 
     return 0;
 }
+```
+
+##
+### Exercise 3 (Two dimensional arrays)
+```bash
+
 ```
