@@ -1,0 +1,3 @@
+Rata-rata kolom pertama: 4
+Rata-rata kolom kedua: 5
+Rata-rata kolom ketiga: 6
