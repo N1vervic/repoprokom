@@ -1,16 +1,3 @@
-Baik, kita ganti `stringstream` dan `stod` dengan kombinasi `getline` langsung dari `inFile` pakai delimiter koma `','` serta operator `>>` untuk membaca angka setelah melewati koma. Header yang dipakai cukup `<iostream>`, `<iomanip>`, `<fstream>`, dan `<string>`.
-
-### Cara Baca File CSV Tanpa `stringstream`
-
-Pada tiap baris CSV seperti `5026210001,Andi Pratama,A,80.00,75.00,85.00,80.00`:
-
-* `getline(inFile, mhs[i].nrp, ',')` membaca teks sampai koma pertama (`5026210001`) dan membuang koma tersebut.
-* `getline(inFile, mhs[i].nama, ',')` membaca sampai koma berikutnya (`Andi Pratama`), menjaga spasi di nama tetap utuh.
-* Untuk `kelasParalel` (`char`) dan nilai (`double`), kita bisa baca sebagai `string` lalu membuang koma di antaranya dengan `char koma; inFile >> koma;`.
-
-### Kode Lengkap Tanpa `<cctype>` dan Tanpa `<sstream>`
-
-```cpp
 #include <iostream>
 #include <iomanip>
 #include <fstream>
@@ -225,5 +212,3 @@ int main() {
 
     return 0;
 }
-
-```
