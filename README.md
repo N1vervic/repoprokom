@@ -84,7 +84,7 @@ int main(){
 ```
 
 ##
-### Exercise 3 (Two dimensional arrays)
+### Exercise 5 (Two dimensional arrays)
 ```bash
 #include <iostream>
 #include <iomanip>
