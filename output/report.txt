@@ -1,0 +1,4 @@
+n = 10
+Mean = 5
+Varians = 3
+Standar Deviasi = 1.73205
